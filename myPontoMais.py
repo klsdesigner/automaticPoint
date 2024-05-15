@@ -45,18 +45,18 @@ if hoje.strftime("%H:%M") == "13:30":
 ## saida para lanche ======================
 ## ========================================
 if hoje.strftime("%H:%M") == "16:00":
-    pyautogui.click(x=1465, y=150)
+    pyautogui.click(x=1465, y=151)
 
     time.sleep(1.5)
-    pyautogui.click(x=1424, y=556)
+    pyautogui.click(x=1416, y=556)
 
 ## retorno do lanche ======================
 ## ========================================
 if hoje.strftime("%H:%M") == "16:15":     
-    pyautogui.click(x=1465, y=150)
+    pyautogui.click(x=1465, y=151)
 
     time.sleep(1.5)
-    pyautogui.click(x=1405, y=556)
+    pyautogui.click(x=1416, y=556)
 
 ## Saida ==================================
 ## ========================================
@@ -68,6 +68,15 @@ if hoje.strftime("%H:%M") == "17:45":
 
 time.sleep(5.5)
 print(f"Ponto Registrado as: {hoje.strftime("%H:%M")} ")
+
+time.sleep(1)
+pyautogui.click(x=78, y=233)
+
+time.sleep(1)
+pyautogui.click(x=1632, y=453)
+
+time.sleep(1)
+pyautogui.click(x=1559, y=521)
 
 ## Fecha o navegador do ponto mais
 # pyautogui.click(x=1898, y=19)
