@@ -66,16 +66,16 @@ if hoje.strftime("%H:%M") == "17:45":
     time.sleep(1.5)
     pyautogui.click(x=1376, y=674)
 
-time.sleep(5.5)
+time.sleep(6)
 print(f"Ponto Registrado as: {hoje.strftime("%H:%M")} ")
 
-time.sleep(1)
+time.sleep(1.5)
 pyautogui.click(x=78, y=233)
 
-time.sleep(1)
+time.sleep(1.5)
 pyautogui.click(x=1632, y=453)
 
-time.sleep(1)
+time.sleep(1.5)
 pyautogui.click(x=1559, y=521)
 
 ## Fecha o navegador do ponto mais
