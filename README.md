@@ -2,7 +2,13 @@
 
 ## Automatização de registro de ponto 
 
-### Linguagem: PYTHON - bibliotecas: pyautogui, datetime time
+### Linguagem: PYTHON - 
+
+#### bibliotecas: 
+    * pyautogui, 
+    * datetime, 
+    * time,
+    * auto-py-to-exe,
 
 * Informe uma url válido
     Exe.: url = <"https://app.com.br">
