@@ -20,64 +20,62 @@ time.sleep(2)
 ## ========= Entrada ======================
 ## ========================================
 if hoje.strftime("%H:%M") == "08:00":
-    pyautogui.click(x=1557, y=149)
-# x=1557, y=149
+    pyautogui.click(x=1556, y=146) 
+
     time.sleep(1.5)
-    pyautogui.click(x=1376, y=674)
+    pyautogui.click(x=1411, y=721)
 
 
 ## ========== saida para almoço ===========
 ## ========================================
 if hoje.strftime("%H:%M") == "12:30":
-    pyautogui.click(x=1557, y=149)
+    pyautogui.click(x=1556, y=146) 
 
     time.sleep(1.5)
-    pyautogui.click(x=1376, y=674)
+    pyautogui.click(x=1411, y=721)
 
 ## retorno do almoço ======================
 ## ========================================
 if hoje.strftime("%H:%M") == "13:30":
-    pyautogui.click(x=1557, y=149)
+    pyautogui.click(x=1556, y=146) 
 
     time.sleep(1.5)
-    pyautogui.click(x=1376, y=674)
+    pyautogui.click(x=1411, y=721)
 
 ## saida para lanche ======================
 ## ========================================
 if hoje.strftime("%H:%M") == "16:00":
-    pyautogui.click(x=1465, y=151)
+    pyautogui.click(x=1463, y=153)
 
     time.sleep(1.5)
-    pyautogui.click(x=1416, y=556)
+    pyautogui.click(x=1411, y=561) 
 
 ## retorno do lanche ======================
 ## ========================================
 if hoje.strftime("%H:%M") == "16:15":     
-    pyautogui.click(x=1465, y=151)
+    pyautogui.click(x=1463, y=153)
 
     time.sleep(1.5)
-    pyautogui.click(x=1416, y=556)
+    pyautogui.click(x=1411, y=561) 
 
 ## Saida ==================================
 ## ========================================
 if hoje.strftime("%H:%M") == "17:45":     
-    pyautogui.click(x=1557, y=149)
+    pyautogui.click(x=1556, y=146) 
 
     time.sleep(1.5)
-    pyautogui.click(x=1376, y=674)
+    pyautogui.click(x=1411, y=721)
 
-time.sleep(6)
+time.sleep(12)
 print(f"Ponto Registrado as: {hoje.strftime("%H:%M")} ")
 
-time.sleep(1.5)
-pyautogui.click(x=78, y=233)
+pyautogui.click(x=86, y=238)
 
-time.sleep(1.5)
-pyautogui.click(x=1632, y=453)
+time.sleep(2)
+pyautogui.click(x=1629, y=453)
 
-time.sleep(1.5)
-pyautogui.click(x=1559, y=521)
+time.sleep(2)
+pyautogui.click(x=1552, y=523)
 
-## Fecha o navegador do ponto mais
-# pyautogui.click(x=1898, y=19)
+
 
